@@ -1,0 +1,133 @@
+/* Add the Poppins font to your website */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ticket-id {
+    font-size: 12px;
+    color: #666;
+    background-color: #f2f2f2;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .user-logo {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .initials-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .online-status {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 10px;
+    height: 10px;
+    background-color: #4caf50; /* Green color for online status */
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+  
+  .avatar-container {
+    position: relative;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 12px 0;
+    color: #333;
+  }
+  
+  .card-tag {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .card-info {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
+  }
+  
+  .priority {
+    font-size: 12px;
+    color: #fff;
+    margin-right: 9px;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .feature-tag {
+    font-size: 14px; /* Adjust font size to match the text style */
+    color: #6b6b6b; /* Match the text color from the image */
+    background-color: #f9f9f9; /* Light gray background for the tag */
+    padding: 4px 12px; /* Adjust padding for the correct spacing */
+    border: 1px solid #d4d4d4; /* Add a subtle border for the outline */
+    border-radius: 4px; /* Fully rounded corners for pill-shaped look */
+    display: inline-flex; /* Inline layout for the tag */
+    align-items: center; /* Center-align the text and circle */
+    gap: 8px; /* Space between the circle and the text */
+  }
+  
+  /* Additional styles for the circle */
+  .feature-tag::before {
+    content: ''; /* Empty content to create the circle */
+    width: 10px; /* Size of the circle */
+    height: 10px; /* Same height for perfect circle */
+    background-color: #c4c4c4; /* Match the gray of the circle */
+    border-radius: 50%; /* Make it circular */
+    display: inline-block; /* Ensure it's inline */
+  }
+
+  /* .feature-tag {
+    font-size: 12px;
+    color: #000000;
+    background-color: #dadada;
+    padding: 4px 8px;
+    border-color: #333;
+    border-width:initial;
+    border-radius: 4px;
+    display: block;
+  } */
+  
